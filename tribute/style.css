@@ -1,0 +1,48 @@
+/*style1**/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*style2**/
+body {
+    background-image: url('nr.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    position: relative;  
+  }
+  /*style3**/
+h1  {
+    font-size:80px;
+    font-family:Roboto;
+    color:black;
+    text-align:center;
+  }
+  /*style4**/
+h2 {
+    font-size:20px;
+    font-family:Roboto;
+    text-align:center;
+  }
+.ul1{
+    font-style: italic;
+    font-weight: bold;
+  }
+  /*style5**/
+.div1{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    font-style: italic;
+    text-align:right;
+    margin: 50px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: white;
+  }
+.div1 li{
+    font-weight: bold;
+    color:black;
+  } 
