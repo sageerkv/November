@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="survey-style.css">
+</head>
+<body>
+    
+    <h1>SURVEY FORM</h1>
+
+        <div id="form">
+            <p><b>TO KNOW THE DETAILS OF STUDENTS</b></p>
+
+            <form action=""> 
+
+                <div class="form-control">
+                    <label for="u_name"><b>NAME :</b></label>
+                </div>
+                <div class="rightTab">
+                <input type="text" class="input-field" id="u_name" name="uname">
+                </div>
+
+                <div class="form-control">
+                    <label for="u_email"><b>EMAIL :</b></label>
+                </div>
+                <div class="rightTab">
+                <input type="text" class="input-field" id="u_email" name="uemail">
+                </div>
+
+                <div class="form-control">
+                    <label for="u_age"><b>DATE OF BIRTH :</b></label>
+                </div>
+                <div class="rightTab">
+                    <input type="date" class="input-field" id="u_age" name="udate of birth">
+                </div>
+
+                <div class="form-control">
+                    <label for="gender"><b>GENDER :</b></label>
+                </div>
+                <div class="rightTab">
+                    <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="male"  type="radio"> Male</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="female"  type="radio"> Female</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="others"  type="radio"> Others</label></li>
+                    </ul>
+                </div>
+
+                <div class="form-control">
+                    <label for="department"><b>DEPARTMENT :</b></label>
+                </div>
+                <div class="rightTab">
+                    <select id="dropdown" name="department">
+                        <option value="b-c">pleace select</option>
+                        <option value="b-c">BCA</option>
+                        <option value="b-c">BSC Computer Science</option>
+                        <option value="b-c">B Com Computer Applications</option>
+                        <option value="b-e">BA English</option>
+                        <option value="b-b">BBA Finance</option>
+                        <option value="m-f">M Com Finance</option>
+                        <option value="m-a">MA English</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="language"><b>LANGUAGE KNOWN :</b></label>
+                </div>
+                <div class="rightTab">
+                    <ul style="list-style: none;">
+                        <li class="checkbox"><label><input name="prefer" value="english" type="checkbox"> English</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="tamil" type="checkbox"> Tamil</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="hindi" type="checkbox"> Hindi</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="malayalam" type="checkbox"> Malayalam</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="kannada" type="checkbox"> Kannada</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="telugu" type="checkbox"> Telugu</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="others" type="checkbox"> Others</label></li>
+                    </ul>
+                    </ul>
+        
+                </div>
+
+                <input type="submit" class="sub">
+                <input type="reset" class="res">  
+
+            </form>
+
+        </div>
+
+</body>
+</html>
