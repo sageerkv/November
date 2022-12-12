@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.biodatabox {
+    margin-top: 50px;
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 9px 9px 9px 9px;
+}
+
+.biodatabox::before {
+    width: 100%;
+    height: 100%;
+    margin: -50px;
+    position: absolute;
+    border-radius: 9px 9px 9px 9px;
+    content: "";
+    background-color: rgb(254, 253, 252);
+    background-size: 100% 100%;
+    opacity: .6;
+    z-index: -10;
+}
+
+.img {
+    position: absolute;
+    margin: 20px;
+    right: 0;
+}
+
+.img img {
+    backface-visibility: hidden;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hed1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(42, 2, 2);
+    font-weight: 600;
+}
+
+.hed2 {
+    padding-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(11, 11, 11);
+    text-shadow: 15px 15px 40px white;
+}
+
+.hed3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(42, 2, 2);
+    text-align: left;
+}
+
+.field {
+    border: 3px solid rgb(21, 14, 45);
+    border-radius: 9px;
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+}
+
+.ans {
+    font-size: 25px;
+}
